@@ -1,0 +1,128 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+h3 {
+    display: flex;
+    font-weight: 0.01rem;
+    font-size: 0.8rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header {
+    display: flex;
+    background-color: antiquewhite;
+    padding: 0.9rem;
+}
+
+.fa-brands {
+    margin-top: 0.7rem;
+    margin-left: 1rem;
+}
+
+.fa {
+    margin-top: 0.7rem;
+}
+
+.menu{
+    display: flex
+}
+.dropbtn {
+    background-color: white;
+    color: black;
+    padding: 1rem   ;
+    font-size: 16px;
+    border: none;
+    margin-left: 3rem;
+    margin-top: 3rem    ;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    left: 75%;
+    display: none;
+    transform: translateX(-50%);
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 150px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+    color: orange;
+}
+
+.dropproduct:hover .dropdown-content,
+.dropblog:hover .dropdown-content,
+.droppage:hover .dropdown-content,
+.drophome:hover .dropdown-content,
+.dropabout:hover .dropdown-content,
+.dropshop:hover .dropdown-content {
+    display: block;
+    
+}
+
+.dropdown:hover .dropbtn {
+    background-color: white;
+    color: orange;
+}
+.buy{
+    width: fit-content;
+    background-color:antiquewhite;
+    padding: 2rem;
+    margin-left: 70rem;
+}
+.x{
+    margin-left: 5rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+p{
+    margin-left: 1rem;
+    padding-top: 0;
+}
+.giay{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+.gia{
+    border: none;
+    border-bottom: 1px solid rgb(221, 217, 209);
+}
+.pr{
+    font-size: 1.3rem;
+    font-weight: 1000rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.real{
+    margin-left: 5rem;
+}
+button{
+    background-color: black;
+    color: white;
+    margin-top: 1.3rem;
+    margin-left: 1.1rem;
+    padding: 7px 30px 7px 30px;
+}
+button:hover{
+    background-color: white;
+    color: black;
+    border: 30px;
+}
+
+
+

@@ -15,6 +15,13 @@ header {
     background-color: antiquewhite;
     padding: 0.9rem;
 }
+.eng{
+    margin-left: 60rem;
+}
+.usd{
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
 
 .fa-brands {
     margin-top: 0.7rem;
